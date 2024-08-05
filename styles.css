@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.clock span{
+ font-size: 80px;
+ width: 110px;
+ display: inline-block;
+ text-align: center;
+ position: relative;
+ border: 42%;
+ border-radius: solid;
+ box-shadow: 40%;
+}
+.clock
+{
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg,#00DBDE 0%,#FC00FF 100%);
+    align-items: center;
+    padding: 17%;
+    background-position: fixed;
+    color: rgb(0, 0, 0);
+
+}
+.clock span::after{
+    font-size: 16px;
+    position: absolute;
+    bottom: -5px;
+    left: 50px;
+    transform: translateX(-50%);
+    border: 42%;
+ border-radius: solid;
+ box-shadow: 40%;
+}
+
+.clock1{
+    width: 80%;
+padding: 3%;
+    border: 2px solid;
+}
+h1{
+    font-weight: 100;
+}
